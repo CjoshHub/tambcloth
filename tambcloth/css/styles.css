@@ -1,0 +1,64 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f5f7fb;
+  color: #2c3e50;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+}
+
+.rent-hero-card {
+  border: none;
+}
+
+.feature-card {
+  background: #fff;
+  border: 1px solid #e9edf3;
+  border-radius: 20px;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #0d6efd;
+}
+
+.product-card img {
+  min-height: 260px;
+  object-fit: cover;
+}
+
+.step-box {
+  background: #fff;
+  border: 1px solid #e9edf3;
+  border-radius: 16px;
+  display: flex;
+  gap: 1rem;
+}
+
+.step-number {
+  min-width: 3rem;
+  min-height: 3rem;
+  background: #0d6efd;
+  color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-section .row > div:last-child {
+    margin-top: 2rem;
+  }
+}
